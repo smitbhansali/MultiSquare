@@ -1,0 +1,85 @@
+.main-login {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-login {
+  padding: 0 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 25%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 0.7rem;
+}
+
+.ind,
+.ind hr {
+  width: 100%;
+}
+
+h6 {
+  margin-top: 0.5rem;
+}
+h6 > a {
+  text-decoration: none;
+}
+.email,
+.password {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.email input,
+.password input {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.container-login form {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h6 {
+  text-align: center;
+}
+
+.Google {
+  border: none;
+  background-color: #1a73e8;
+  font-size: 14px;
+  padding: 0.5rem;
+  width: 60%;
+  color: aliceblue;
+  border-radius: 0.42rem;
+}
+
+.login {
+  border: none;
+  background-color: #1a73e8;
+  font-size: 14px;
+  padding: 0.5rem;
+  width: 40%;
+  color: aliceblue;
+  border-radius: 0.42rem;
+}
+
+input {
+  outline: none;
+
+  align-self: center;
+}
