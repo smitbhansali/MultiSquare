@@ -2,3 +2,35 @@
   height: 100vh;
   width: 100vw;
 }
+
+.df{
+  display: flex;
+}
+
+.fdc{
+  flex-direction: column;
+}
+
+.aic{
+  align-items: center;
+}
+
+.jcc{
+  justify-content: center;
+}
+
+.jc-sa{
+  justify-content: space-around;
+}
+
+.jc-sb{
+  justify-content: space-between;
+}
+
+.jc-se{
+  justify-content: space-evenly;
+}
+
+.tac {
+  text-align: center;
+}
