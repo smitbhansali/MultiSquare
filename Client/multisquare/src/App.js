@@ -13,9 +13,9 @@ const App = () => {
     <>
       <Router>
         <AuthProvider>
-          <Navbar />
           <Switch>
             <Route exact path="/">
+              <Navbar />
               <Products />
             </Route>
             <Route exact path="/login">
