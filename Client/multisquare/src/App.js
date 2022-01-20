@@ -17,6 +17,10 @@ const App = () => {
           <Switch>
             <Route exact path="/backend">
               <Ecommerce />
+              </Route>
+            <Route exact path="/">
+              <Navbar />
+              <Products />
             </Route>
             <Route>
               <Navbar />
