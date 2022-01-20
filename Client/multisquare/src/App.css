@@ -2,3 +2,48 @@
   height: 100vh;
   width: 100vw;
 }
+
+
+/* ------------------Ecommerce--------------------------- */
+.sidebar{
+  width: 15vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-shadow: 3px 3px 15px grey;
+  position: relative;
+}
+
+@media only screen and (max-width: 1023px) {
+  .sidebar{
+    display: flex;
+    left: 100%;
+  }
+}
+
+.inner{
+  width: 90%;
+  height: 100%;
+
+}
+.user{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 5%;
+  font-size: 15px;
+}
+
+.menu{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 5%;
+  font-size: 15px;
+}
+
+.menu:hover{
+  background-color: rgb(232, 240, 253);
+}
