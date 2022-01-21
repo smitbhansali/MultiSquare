@@ -22,9 +22,9 @@ const Login = () => {
   };
   const email = useRef();
   const pass = useRef();
+
   return (
-    <>
-      <div className="main-login">
+        <div className="main-login">
         <div className="container-login">
           <form onSubmit={handleSubmit}>
             <h2>Log In</h2>
@@ -60,7 +60,6 @@ const Login = () => {
           Need an account? <Link to="/signup">Sign Up</Link>
         </h6>
       </div>
-    </>
   );
 };
 

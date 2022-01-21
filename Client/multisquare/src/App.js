@@ -23,7 +23,6 @@ const App = () => {
               <Products />
             </Route>
             <Route>
-              <Navbar />
               <Switch>
                 <Route exact path="/">
                   <Products />
